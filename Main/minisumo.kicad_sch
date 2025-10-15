@@ -4201,7 +4201,7 @@
 		)
 		(uuid "54789dd8-5724-4316-b467-0df2a4b14bf9")
 	)
-	(text "CE2=100uF\nCE3-4=1uF\nC=100nF\nR1-7=330\nR8-11=10K\n______________\n"
+	(text "CE2=100uF\nCE3-4=1uF\nC=100nF\nR1-5=330\nR6-10=10K\n______________\n"
 		(exclude_from_sim no)
 		(at 150.876 161.036 0)
 		(effects
@@ -22759,7 +22759,25 @@
 			"ADkAWgBsAFkAcABxAHoAWQBzAHoAUABVAGMAdwBuAG8ASwBOAE8AMgByAFIAdQBjAHMAeQAyAC8A"
 			"NwB6AHQATwBsAHUAagB4AEoAeABFAHAATQA3AFAAQgB5AFAATABqAEEAYwAxAHUAOQBjAFEAdgBE"
 			"AEYAUQBzAFcAbQBTAEoARgBYADEARgBKAGkAcABrADUASwAyAEMAVgBkAEkASwBUAGwASABSAE8A"
-			"UwBkAA=="
+			"UwBkAEsAVABsAEgAUgBPAFMAZABWADkAVQBrAGEAYgBRADIAQQBxAEQAUQBzAGkAaQBKAG4AVwBx"
+			"AE8AdABTAEcAMgBaAEMAMQBtAGQAagBGAEYAVgBUAFUAcQBxAE8AcwA5AEYAYQAxAGoAYgBlAHAA"
+			"SQBBAE0AUgBrADkARwBKAFIARgB1AGgATQBhAEUAMwBoAHEAMQByAFYAdABVAFUARABwAFoAUgBp"
+			"AFQARQBRAHcAOQBoAFEARQBFAFUAawB4AHgAUgBSAEgAWQB6AFcAbABaAEcAdQBGAG0AWgBJAGsA"
+			"NQAvAHkAZwBQADEAUAAwAFMAMgBiAFQANQBLADIATABlAFQAcwBiAEIATwB0AEcAWQA0AGUANQBY"
+			"AFUALwBSAEMAbwAxAGIAMQA4AGkAbQBhAFUAUQBqAEUAUQAwAEcAdgBaAGEAMQBBAHoARwBEAHEA"
+			"YQB1AEMATgArAEsAcQBpAFgAVwBzAG8AMgBNAHUAZwBtAFAAbQBFAEQAdwBUAEsAOABFAFoAbwBV"
+			"AFgAYwBiAHEAMwBtAGMAMgBwAFUAbwA0AFUARwAxAFYAVwBkAGsAcQByAGsASwAwADUARQAzAHIA"
+			"dgB1AFcAcQB2AEcASgBxAFkAawB1AGYASABrAHYAQwBkADIAegByAEcAagBwAHEAbQA5ADgAOAB5"
+			"AGMASgBNAFUAWQBxADYAcABLAGsAawBTADAAcQBaAHUAVQB4AEwAUwBOADEATQBKAEkALwAyADYA"
+			"SgBhAGEAVgB0AEwATQBVAFkAdgBmAGMAeAB4AHEAbwBlAHAAWgBpAEkAcQBQAFUAQQB6AGEAagBx"
+			"AGkAdABEAFcAZwBMAGQAQwA0AEsAcQBxAHoAUQArAGgATABFAHYAcgB6AEsAYgBKAHkAbABaAFYA"
+			"VwBWAHgAYwBhAEcASQBUAG0AMgBRAHMAdABpAFMANwBwADgAaAA0AGYAdQA4ADkAawB4AFAAUgAw"
+			"AFcAaQBjADcAeQBNAGkAUwBSAHAAOABVAFYAVwAxAEQAZQBTAHEAcgBwAGUAVwBsADYAMwBIAHkA"
+			"cgBJAHMAUwArAE4AcQAxAC8AWABnADEAcgBiAHUAVABnAEcAUgBZADgAZQBCAFQAUQB3AGIAUQBw"
+			"AEQAMQBNAG4AawBDAEUARgBOAGMAWABLADYAdwB0AEwAeQA4AE0AdgBUAE8AOQAvAHQAbABDAEEA"
+			"SABNAGcATgBqAFEAUwB5AHIATwBlADQARgBLAFQASwBKAFMATgAzAFYAcwBJAHQAbwBFAHAAMABi"
+			"AFMAYQBHADEAawBOADAAcwBlAFMASwBKAEoAawBoAHUATgA4ADUAMgBlAHgAWgAzADIANABLAEQA"
+			"ZwBjAA=="
 		)
 	)
 	(global_label "BI_DER"
@@ -25359,7 +25377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d3b86e7-c9b0-4c40-96d4-d957e09b8b30")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 180.975 19.177 90)
 			(effects
 				(font
@@ -25411,7 +25429,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -25755,7 +25773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55947c6b-6314-455d-8ce1-0ea3e3fd10cf")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 180.848 25.4 90)
 			(effects
 				(font
@@ -25807,7 +25825,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -26148,7 +26166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5936ef39-6426-4d55-aa94-aab7ea6eb7fb")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 180.975 22.987 90)
 			(effects
 				(font
@@ -26200,7 +26218,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -26552,7 +26570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63e8b124-d3f2-4baf-b7f8-538c81baf34f")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 180.975 29.972 90)
 			(effects
 				(font
@@ -26604,7 +26622,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -27657,7 +27675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ebf3741-74be-4e48-a6dc-564eae7edd50")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 109.982 158.242 90)
 			(effects
 				(font
@@ -27709,7 +27727,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -28058,7 +28076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d8c075b-e1b8-4109-830a-373b853175e3")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 129.54 46.99 90)
 			(effects
 				(font
@@ -28110,7 +28128,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -30775,7 +30793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fed2359d-4910-4478-8979-08ca990be05e")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 62.992 158.75 90)
 			(effects
 				(font
@@ -30827,7 +30845,7 @@
 		(instances
 			(project "minisumo"
 				(path "/abeb3225-9534-4616-a1ab-54bb3ef1c7bc"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
